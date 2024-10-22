@@ -1,0 +1,9 @@
+Resumo sobre a aula "Beneficios da Nuvem"
+
+É possível entender mais sobre o tempo de inatividade de cada nivel de SLA (Service Level Agreements):
+Com nível mais baixo de SLA (99%) PODENDO ficar até 87 horas Offline por ano
+E o nivel mais alto (99,999%) PODENDO ficar 5,25 minutos anualmente.
+
+O nível de SLA é definido pela empresa contratante de acordo com a disponibilidade, custo, e uso da VM necessario.
+
+
