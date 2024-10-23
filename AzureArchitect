@@ -1,0 +1,9 @@
+Resumo sobre o laboratório de Componentes de arquitetura Azure.
+.
+.
+.
+
+Após mostrar o a disponibilidade do Cloud Azure ao redor do Globo, a aula foi focada em Grupo de Recursos.
+
+Foi feito a Criação de um grupo de recursos, bem como uma visão geral de todos as configurações como bloqueios, politicas, visualizador de recursos, e etc.
+Fizemos também a criação e configuração no Grupo de recursos da rede virtual (VNet).
