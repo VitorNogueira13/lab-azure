@@ -1,0 +1,13 @@
+Resumo sobre a aula de laboratório de Ferramentas de Gerenciamento e Implantação.
+.
+.
+.
+.
+A primeira ferramenta que verificamos foi o PowerShell, lembrando, que é importante que haja um storage account para que funcione.
+PowerShell, é interessante caso você goste de usar códigos para configurar seus recursos, sem necessariamente ter uma interface.
+
+Verificamos também o "Bicep" a linguagem de código usada para implantar o recursos no Azure
+
+O Azure Arc é uma ferramenta de gerenciamento de multi-clouds.
+Com diversos recursos internos e externos ao Azure que podem ser gerenciado todos juntos dentro do "Arc"
+
