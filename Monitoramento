@@ -1,0 +1,17 @@
+Resumo sobre a aula de laboratório de Ferramentas de Monitoramento do Azure.
+.
+.
+.
+.
+O Monitor, Advisor e Service Health são alguns deles.
+
+Monitor
+Existe varias ferramentas que podem ser usadas, como aplicações, Vm's, Storages.
+Ele traz uma avaliação, logs e métricas sobre as aplicações que estão em uso.
+
+Service Health
+Demonstra os locais que estão com algum tipo de interrupção, manutenção planejada.
+Recomendações, e etc.
+
+Advisor
+Nos mostra recomendações de custos, performance, e boas praticas em nosso sistema Azure.
