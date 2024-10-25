@@ -1,0 +1,10 @@
+Resumo sobre o Laboratório de armazenamento no Azure
+.
+.
+.
+Durante o Laboratório foi feito a criação de uma nova conta de armazenamento.
+-Um dos pontos importante para citar é que o nome do Storage deve ser um nome totalmente "exclusivo".
+-Existem dois modos de desempenho, Standard e Premium, com esse ultimo sendo recomendado para um uso com menos latencia (e com um valor bem maior)
+-Realizei também a criação de um Projeto de Migração para o Azure, com o uso do AZCopy para migração.
+
+
