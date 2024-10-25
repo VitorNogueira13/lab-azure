@@ -1,0 +1,6 @@
+Resumo do laboratório de Identidade, Acesso e Segurança.
+.
+.
+.
+Realizado configuração de "role" para grupos de recursos, liberando acesso aos usuários de acessarem determinadas areas.
+A ferramenta "Microsoft Defender for Cloud" pode dar recomendações e um overview do Cloud para verificar a segurança e enviar alertas (inclusive de cloud de terceiros, AWS,GOOGLE...)
