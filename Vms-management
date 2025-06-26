@@ -1,0 +1,8 @@
+Pontos Chave para a Criação de VMs
+Available Set: Crucial para garantir a alta disponibilidade da VM. Ao agrupar VMs em um Available Set, o Azure as distribui em servidores separados. Isso significa que, se um servidor falhar, a outra VM continua funcionando, oferecendo redundância.
+
+Segurança da Rede: Use Network Security Groups (NSGs), que atuam como um firewall, controlando o tráfego de entrada e saída da VM. Fundamental para a segurança.
+
+Backup: Configure o backup da VM. Garante a proteção dos dados contra perdas acidentais.
+
+Monitoramento: Acompanhe o desempenho da VM para identificar e resolver gargalos ou problemas.
