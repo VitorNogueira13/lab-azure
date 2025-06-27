@@ -1,0 +1,70 @@
+1. Máquinas Virtuais (VMs) e Contêineres
+
+Isolamento Completo: Cada VM tem seu próprio SO.
+
+Recursos: Maior consumo de recursos, ideal para aplicações legadas ou que precisam de SO específico.
+
+Gerenciamento: Requer gerenciamento do SO e patches.
+
+Contêineres (Docker, ACI, AKS):
+
+Eficiência: Compartilham o kernel do SO do host, são leves e portáteis.
+
+Inicialização Rápida: Ideal para microsserviços, DevOps e escalabilidade.
+
+ACI (Azure Container Instances): Contêineres simples, sem servidor, para tarefas rápidas.
+
+AKS (Azure Kubernetes Service): Orquestração de contêineres em escala, complexo, mas poderoso.
+
+2. Backup e Recuperação
+Azure Backup: Serviço principal para proteger dados.
+
+Cofre dos Serviços de Recuperação (Recovery Services Vault): Armazena backups e políticas.
+
+Agente MARS (Microsoft Azure Recovery Services Agent): Para backup de arquivos e pastas de servidores Windows (locais ou VMs).
+
+Política de Backup: Define frequência e retenção dos backups.
+
+Pontos de Recuperação (Recovery Points): "Instantâneos" dos dados para restauração.
+
+Instantâneos (Snapshots):
+
+Cópia Pontual: "Fotografia" de um disco em um momento.
+
+Uso: Restauração rápida de discos de VMs, clonagem para testes.
+
+Diferença do Backup: Mais para curto prazo e recuperação rápida; Azure Backup é para retenção e gestão de longo prazo.
+
+Azure Site Recovery: Para recuperação de desastres (DR) e replicação de VMs.
+
+3. Monitoramento e Diagnóstico
+Azure Monitor: Serviço abrangente para observabilidade.
+
+Coleta Dados: Métricas (desempenho) e Logs (eventos).
+
+Análise:
+
+Log Analytics: Ferramenta para pesquisar e analisar logs usando KQL (Kusto Query Language).
+
+Metrics Explorer: Visualização de dados de métricas.
+
+Application Insights: APM para monitorar aplicações.
+
+Ações:
+
+Alertas: Notificações baseadas em métricas/logs para proatividade.
+
+Grupos de Ação (Action Groups): Disparam automações em resposta a alertas.
+
+4. Gestão de Recursos e Governança
+Portal do Azure: Interface gráfica para gerenciar tudo.
+
+Azure CLI / Azure PowerShell: Ferramentas de linha de comando para automação e scripting.
+
+ARM Templates / Bicep / Terraform: Infraestrutura como Código (IaC) para implantações consistentes e repetitivas.
+
+Azure Active Directory (AAD): Gerenciamento de identidades, autenticação e autorização (IAM).
+
+Redes Virtuais (VNets): Base para isolamento e conectividade de rede no Azure.
+
+Grupos de Segurança de Rede (NSGs): Controlam o tráfego de rede para VMs.
